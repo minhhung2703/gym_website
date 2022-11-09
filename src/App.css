@@ -57,8 +57,10 @@ body {
     position: absolute;
     right: 40px;
     top: 0px;
-    width: 700px;
+    width: 600px;
+    object-fit: cover;
     height: 900px;
+    border-end-start-radius: 35%;
     margin-top: -330px;
   
   }
