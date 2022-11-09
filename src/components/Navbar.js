@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 import { Stack } from "@mui/material";
 
 import Gym from "../assets/images/gym.png"
-import LoginIcon from '@mui/icons-material/Login';
-
+import LoginIcon from '@mui/icons-material/Input';
 
 const Navbar = () => {
     return (
@@ -25,6 +24,7 @@ const Navbar = () => {
                 direction="row" gap="40px" fontFamily="Alegreya" fontSize="24px" alignItem="flex-end">
                 <Link to="/" style={{ textDecoration: "none", color: "#3A1212", borderBottom: "3px solid #FF2625" }}>Home</Link>
                 <a href="#exercises" style={{ textDecoration: "none", color: "#3A1212" }}>Exercises</a>
+                <a href="#login"><LoginIcon style={{ fontSize: '25px', margin: '0 0 0 100px', cursor: 'pointer', color: "#3A1212" }} /></a>
             </Stack>
 
         </Stack>

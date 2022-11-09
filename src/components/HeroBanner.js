@@ -9,7 +9,7 @@ const HeroBanner = () => {
         }} position="relative" p="20px">
             <Typography color='#FF2625' opacity="93%"
                 fontWeight="600" fontSize="30px">
-                Black Gym Club
+                Fitness Club
             </Typography>
 
             <Typography
